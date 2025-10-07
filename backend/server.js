@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 import http from "http";
 import cors from "cors";
 import dotenv from "dotenv";
-import Document from "./models/Document";
+import Document from "./models/Document.js";
 
 dotenv.config();
 const app = express();
